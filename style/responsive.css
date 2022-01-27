@@ -1,0 +1,71 @@
+@media screen  and (max-width:700px){
+    header .container{
+        display:flex;
+        flex-direction:row;
+        margin-left: 1px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+        
+    }
+    .b-covers{
+       font-size: 29px;
+       margin-left: 15px;
+    }
+    
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 90%;
+    }
+}
+@media screen  and (max-width:500px){
+    header .container{
+        display:flex;
+        flex-direction:row;
+        margin-left: 1px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        
+    }
+    main .container{
+        height: 800px;
+        width: 500px;
+    }
+    .filme-principal{
+        height: 370px;
+    }
+    .img-logo{
+        width: 93px;
+        height: 31px;
+    }
+    .b-covers{
+        margin-left: 1px;
+
+    }
+    .item{
+        width: 380px;
+        height: 380px;
+        margin-left: 16px;
+    }
+    .descricao{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #fffbfb;
+    width: 380px;
+    }
+    .botao{
+
+    }
+    .titulo{
+        margin-top: 5%;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    }
+
+}

@@ -1,0 +1,217 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#3b4344;
+    --branco:#fff7f7;
+    --rosa: #f12f5d;
+    --cor1:#f12f5d;
+    --cor2:#f06f6b;
+    --cor3:#bbbd91;
+    --cor4:#51615b;
+    --cor5:#3b4344;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+header .container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-logo{
+    width: 150px;
+    height: 50px;
+    background-color:var(--rosa);
+    margin:5px;
+    
+}
+.b-covers{
+    font-family:'Lobster Two', cursive;
+    font-size: 40px;
+    color:var(--branco);
+    margin-left: 25%;
+}
+   
+
+
+header .logo{
+    color: var(--rosa);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+    margin-left:5px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:var(--rosa);
+    margin-right:20px;
+    margin-left: 3px;
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+header nav a:hover {
+    color:var(--branco);
+    transition: 1.2s;
+
+}
+
+/* Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.95)100%), url('../img/Capas-9.jpg');
+
+
+    height: 400px;
+    background-size:150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #fffbfb;
+}
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.botao{
+    background-color:var(--rosa) ;
+    color: var(--branco);
+    padding: 15px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.informacoes{
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: var(--branco);
+    color:var(--preto);
+    
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 65%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-fimes{
+    margin-top: 10px;
+}
+.item{
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+.box-filme{
+    transition: 1s;
+}
+.box-filme:hover{
+     filter: brightness(30%);
+}
+.popup-wrapper{
+    display: none;
+    background:rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    z-index: 2;
+}
+.popup{
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin:10% auto;
+    padding: 20px;
+    background:var(--cor5);
+    position: relative;
+    color:#000000;
+    border: var(--cor3) solid 3px;
+}
+
+.popup-close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: var(--cor3);
+    font-size: 25px;
+}
+.b-popup{
+    color:var(--cor2);
+    text-align: center;
+}
+
+table{
+    background-color: var(--cor5);
+    border-collapse: collapse;
+    width: 100%;
+   
+    color:var(--cor2);
+    margin-top: 20px;
+}
+td{
+    
+   text-align: left;
+   font-size: 20px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   border-bottom: var(--cor3) solid 3px;
+  
+}
+th{
+    color: var(--rosa);
+    font-size:25px ;
+    border-bottom: var(--cor3) solid 3px;
+    text-align:left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+  
+}
+.titulo-popup{
+    color:var(--branco);
+}
+.duracao{
+    text-align: center;
+    
+    border-bottom: var(--cor3) solid 3px;
+}
